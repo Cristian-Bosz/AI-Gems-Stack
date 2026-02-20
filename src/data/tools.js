@@ -78,6 +78,15 @@ const tools = [
     category: "Vibe Coding",
     icon: "🧠",
   },
+  {
+    id: 28,
+    name: "Flames.blue",
+    url: "https://flames.blue/",
+    description:
+      "Herramienta avanzada para optimizar flujos de trabajo de programación con IA.",
+    category: "Vibe Coding",
+    icon: "🔥",
+  },
 
   // ── Vibe Design ──────────────────────────────
   {
@@ -143,6 +152,15 @@ const tools = [
     category: "Vibe Design",
     icon: "🍅",
   },
+  {
+    id: 29,
+    name: "Variant",
+    url: "https://variant.com/",
+    description:
+      "Plataforma de diseño generativo para crear variantes visuales y prototipos rápidos.",
+    category: "Vibe Design",
+    icon: "🎭",
+  },
 
   // ── Vibe Learning ────────────────────────────
   {
@@ -181,6 +199,24 @@ const tools = [
     category: "Vibe Learning",
     icon: "🧪",
   },
+  {
+    id: 30,
+    name: "Mixboard",
+    url: "https://mixboard.google.com/projects",
+    description:
+      "Laboratorio experimental de Google para mezclar conceptos e ideas con IA.",
+    category: "Vibe Learning",
+    icon: "🎛️",
+  },
+  {
+    id: 31,
+    name: "Napkin",
+    url: "https://www.napkin.ai/",
+    description:
+      "Transforma tus ideas y notas en visualizaciones y diagramas profesionales con IA.",
+    category: "Vibe Learning",
+    icon: "📝",
+  },
 
   // ── AI DevTools ──────────────────────────────
   {
@@ -209,6 +245,15 @@ const tools = [
       "Protocolo que conecta agentes de IA con el navegador para automatizar tareas web.",
     category: "AI DevTools",
     icon: "🌐",
+  },
+  {
+    id: 32,
+    name: "21st",
+    url: "https://21st.dev/community/components/s/background",
+    description:
+      "Librería de componentes UI modernos y fondos animados optimizados para desarrolladores.",
+    category: "AI DevTools",
+    icon: "🎨",
   },
 
 
@@ -257,6 +302,53 @@ const tools = [
       "Plataforma de IA para crear y gestionar contenido visual y multimedia.",
     category: "Image & Media",
     icon: "🌌",
+  },
+  {
+    id: 33,
+    name: "WaveSpeed",
+    url: "https://wavespeed.ai/",
+    description:
+      "Generación y edición de video ultrarrápida impulsada por modelos de IA de última generación.",
+    category: "Image & Media",
+    icon: "🌊",
+  },
+  {
+    id: 34,
+    name: "Freepik",
+    url: "https://www.freepik.es/",
+    description:
+      "Banco de recursos visuales con potentes herramientas de generación y edición por IA.",
+    category: "Image & Media",
+    icon: "📸",
+  },
+  {
+    id: 35,
+    name: "Seedance 2.0",
+    url: "https://seedance2.ai/es",
+    description:
+      "Crea animaciones y bailes realistas a partir de imágenes estáticas con IA.",
+    category: "Image & Media",
+    icon: "💃",
+  },
+  {
+    id: 36,
+    name: "MusicFX",
+    url: "https://labs.google/fx/tools/music-fx-dj",
+    description:
+      "Herramienta experimental de Google para crear música y loops originales con IA.",
+    category: "Image & Media",
+    icon: "🎵",
+  },
+
+  // ── Vibe Marketing ───────────────────────────
+  {
+    id: 37,
+    name: "Holo",
+    url: "https://www.freepik.es/",
+    description:
+      "Herramienta especializada para potenciar campañas de marketing con assets generados por IA.",
+    category: "Vibe Marketing",
+    icon: "📢",
   },
 ];
 
