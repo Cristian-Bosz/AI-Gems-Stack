@@ -99,15 +99,6 @@ const tools = [
     icon: "🎨",
   },
   {
-    id: 9,
-    name: "Galileo AI",
-    url: "https://www.usegalileo.ai",
-    description:
-      "Diseña interfaces completas en segundos con IA generativa de alta fidelidad.",
-    category: "Vibe Design",
-    icon: "🔭",
-  },
-  {
     id: 10,
     name: "Google Stitch",
     url: "https://stitch.withgoogle.com",
@@ -144,15 +135,6 @@ const tools = [
     icon: "✏️",
   },
   {
-    id: 14,
-    name: "Pomelli",
-    url: "https://pomelli.ai",
-    description:
-      "Asistente de diseño con IA para crear layouts y componentes web profesionales.",
-    category: "Vibe Design",
-    icon: "🍅",
-  },
-  {
     id: 29,
     name: "Variant",
     url: "https://variant.com/",
@@ -160,6 +142,15 @@ const tools = [
       "Plataforma de diseño generativo para crear variantes visuales y prototipos rápidos.",
     category: "Vibe Design",
     icon: "🎭",
+  },
+  {
+    id: 38,
+    name: "UX Pilot",
+    url: "https://uxpilot.ai/es",
+    description:
+      "Herramienta integral para diseñadores UX que automatiza la creación de sitemaps, wireframes y flujos de usuario.",
+    category: "Vibe Design",
+    icon: "🎨",
   },
 
   // ── Vibe Learning ────────────────────────────
@@ -217,7 +208,34 @@ const tools = [
     category: "Vibe Learning",
     icon: "📝",
   },
-
+  {
+    id: 39,
+    name: "Perplexty",
+    url: "https://www.perplexity.ai/",
+    description:
+      "Motor de búsqueda conversacional que proporciona respuestas precisas con fuentes citadas para aprender cualquier tema.",
+    category: "Vibe Learning",
+    icon: "🔍",
+  },
+  // ── Vibe Marketing ───────────────────────────
+  {
+    id: 37,
+    name: "Holo",
+    url: "https://www.freepik.es/",
+    description:
+      "Herramienta especializada para potenciar campañas de marketing con assets generados por IA.",
+    category: "Vibe Marketing",
+    icon: "📢",
+  },
+  {
+    id: 14,
+    name: "Pomelli",
+    url: "https://pomelli.ai",
+    description:
+      "Asistente de diseño con IA para crear layouts y componentes web profesionales.",
+    category: "Vibe Design",
+    icon: "🍅",
+  },
   // ── AI DevTools ──────────────────────────────
   {
     id: 19,
@@ -340,16 +358,6 @@ const tools = [
     icon: "🎵",
   },
 
-  // ── Vibe Marketing ───────────────────────────
-  {
-    id: 37,
-    name: "Holo",
-    url: "https://www.freepik.es/",
-    description:
-      "Herramienta especializada para potenciar campañas de marketing con assets generados por IA.",
-    category: "Vibe Marketing",
-    icon: "📢",
-  },
 ];
 
 export default tools;

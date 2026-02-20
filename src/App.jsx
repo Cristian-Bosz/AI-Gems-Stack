@@ -59,7 +59,7 @@ function App() {
 
       <footer className="footer">
         <p>
-          AI Gem Stack &bull; Tu panel personal de herramientas IA &bull;{" "}
+          AI Gem Stack &bull; Compilado con dedicación por Vectoria Labs - Para que tu potencial crezca junto al nuestro &bull;{" "}
           {new Date().getFullYear()}
         </p>
       </footer>
