@@ -56,26 +56,42 @@ const tools = [
 
   // ── UI Components ────────────────────────────
   { id: 36, name: "21st", url: "https://21st.dev", category: "UI Components", icon: "💎", description: "Componentes UI modernos y fondos animados." },
+  { id: 37, name: "Uiverse", url: "https://uiverse.io/", category: "UI Components", icon: "🌌", description: "Biblioteca de elementos UI open-source hechos con CSS y HTML." },
 
   // ── Vibe Marketing ───────────────────────────
-  { id: 37, name: "Brandmark", url: "https://brandmark.io/", category: "Vibe Marketing", icon: "🎨", description: "Crea logos y sistemas de branding completos con IA." },
-  { id: 38, name: "Holo", url: "https://tryholo.ai/", category: "Vibe Marketing", icon: "📢", description: "Estrategias y assets para campañas virales." },
-  { id: 39, name: "Pomelli", url: "https://labs.google.com/pomelli/about/", category: "Vibe Marketing", icon: "🍅", description: "Diseño orientado a conversión y marketing digital." },
+  { id: 38, name: "Brandmark", url: "https://brandmark.io/", category: "Vibe Marketing", icon: "🎨", description: "Crea logos y sistemas de branding completos con IA." },
+  { id: 39, name: "Holo", url: "https://tryholo.ai/", category: "Vibe Marketing", icon: "📢", description: "Estrategias y assets para campañas virales." },
+  { id: 40, name: "Pomelli", url: "https://labs.google.com/pomelli/about/", category: "Vibe Marketing", icon: "🍅", description: "Diseño orientado a conversión y marketing digital." },
 
   // ── Visual Assets ────────────────────────────
-  { id: 40, name: "Midjourney", url: "https://www.midjourney.com", category: "Visual Assets", icon: "🖼️", description: "Generación de imágenes artísticas de máxima calidad." },
-  { id: 41, name: "DALL·E 3", url: "https://openai.com/dall-e-3", category: "Visual Assets", icon: "🖌️", description: "Generación de imágenes con alta precisión semántica." },
-  { id: 42, name: "Leonardo AI", url: "https://leonardo.ai", category: "Visual Assets", icon: "🎯", description: "Modelos especializados para assets y fine-tuning." },
-  { id: 43, name: "Freepik AI", url: "https://www.freepik.es", category: "Visual Assets", icon: "📸", description: "Banco de recursos con herramientas de edición IA." },
+  { id: 41, name: "Midjourney", url: "https://www.midjourney.com", category: "Visual Assets", icon: "🖼️", description: "Generación de imágenes artísticas de máxima calidad." },
+  { id: 42, name: "DALL·E 3", url: "https://openai.com/dall-e-3", category: "Visual Assets", icon: "🖌️", description: "Generación de imágenes con alta precisión semántica." },
+  { id: 43, name: "Leonardo AI", url: "https://leonardo.ai", category: "Visual Assets", icon: "🎯", description: "Modelos especializados para assets y fine-tuning." },
+  { id: 44, name: "Freepik AI", url: "https://www.freepik.es", category: "Visual Assets", icon: "📸", description: "Banco de recursos con herramientas de edición IA." },
 
   // ── Generative Media ─────────────────────────
-  { id: 44, name: "Runway", url: "https://runwayml.com", category: "Generative Media", icon: "🎬", description: "Suite profesional de generación y edición de video." },
-  { id: 45, name: "WaveSpeed", url: "https://wavespeed.ai/", category: "Generative Media", icon: "🌊", description: "Generación y edición de video ultrarrápida." },
-  { id: 46, name: "Seedance 2.0", url: "https://seedance2.ai/", category: "Generative Media", icon: "💃", description: "Animaciones y bailes realistas a partir de imágenes." },
-  { id: 47, name: "MusicFX", url: "https://labs.google/fx/tools/music-fx", category: "Generative Media", icon: "🎵", description: "Creación de música y loops originales." },
+  { id: 45, name: "Runway", url: "https://runwayml.com", category: "Generative Media", icon: "🎬", description: "Suite profesional de generación y edición de video." },
+  { id: 46, name: "WaveSpeed", url: "https://wavespeed.ai/", category: "Generative Media", icon: "🌊", description: "Generación y edición de video ultrarrápida." },
+  { id: 47, name: "Seedance 2.0", url: "https://seedance2.ai/", category: "Generative Media", icon: "💃", description: "Animaciones y bailes realistas a partir de imágenes." },
+  { id: 48, name: "MusicFX", url: "https://labs.google/fx/tools/music-fx", category: "Generative Media", icon: "🎵", description: "Creación de música y loops originales." },
 
-  // ── UX Insights ──────────────────────────────
-  { id: 48, name: "Hotjar", url: "https://www.hotjar.com", category: "UX Insights", icon: "🔥", description: "Análisis de comportamiento real de usuarios en tu web." }
+  // ── SEO Insights ──────────────────────────────
+  { id: 49, name: "Hotjar", url: "https://www.hotjar.com", category: "SEO", icon: "🔥", description: "Análisis de comportamiento real de usuarios en tu web." },
+
+  // ── OG Essentials ───────────────────
+  { id: 50, name: "CDN Logo", url: "https://cdnlogo.com/", category: "OG Essentials", icon: "🏷️", description: "Buscador de logos vectoriales de marcas famosas." },
+  { id: 51, name: "SVG Repo", url: "https://www.svgrepo.com/", category: "OG Essentials", icon: "📐", description: "Enorme repositorio de vectores y sets de iconos gratuitos." },
+  { id: 52, name: "Haikei", url: "https://app.haikei.app/", category: "OG Essentials", icon: "🌈", description: "Generador de formas y fondos SVG orgánicos únicos." },
+  { id: 53, name: "Storyset", url: "https://storyset.com/", category: "OG Essentials", icon: "🙋", description: "Ilustraciones personalizables y animadas para web." },
+  { id: 54, name: "Ray.so", url: "https://ray.so/", category: "OG Essentials", icon: "📸", description: "Crea imágenes bellas de tus snippets de código." },
+  { id: 55, name: "uiGradients", url: "https://www.uigradients.com/", category: "OG Essentials", icon: "🌇", description: "Colección de degradados de color listos para usar." },
+  { id: 56, name: "ColorSpace", url: "https://mycolor.space/", category: "OG Essentials", icon: "🎨", description: "Generador de paletas de colores a partir de un HEX." },
+  { id: 57, name: "BGJar", url: "https://bgjar.com/", category: "OG Essentials", icon: "🍯", description: "Generador de fondos SVG gratuitos para tus proyectos." },
+  { id: 58, name: "Lottiefiles", url: "https://lottiefiles.com/", category: "OG Essentials", icon: "📽️", description: "Animaciones JSON livianas para apps e interfaces web." },
+  { id: 59, name: "W3C Validator", url: "https://validator.w3.org/", category: "OG Essentials", icon: "👮", description: "El estándar para validar la estructura de tu HTML/CSS." },
+  { id: 60, name: "Font Awesome", url: "https://fontawesome.com/", category: "OG Essentials", icon: "🚩", description: "La librería de iconos icónica más utilizada en el mundo." },
+  { id: 61, name: "Framer Motion", url: "https://motion.dev/", category: "OG Essentials", icon: "🎢", description: "Librería de animaciones profesional para React." },
+  { id: 62, name: "SVG Backgrounds", url: "https://www.svgbackgrounds.com/", category: "OG Essentials", icon: "🖼️", description: "Fondos vectoriales personalizables para diseño web." }
 ];
 
 export default tools;
